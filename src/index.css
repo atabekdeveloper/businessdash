@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+@layer components {
+  .nav-item {
+    @apply flex items-center gap-5 px-5 py-3 text-gray-700 rounded-md hover:bg-gray-100;
+  }
+  .not-scroll::-webkit-scrollbar {
+    @apply hidden;
+  }
+}
