@@ -61,7 +61,7 @@ export const Navbar: React.FC = () => {
       </>
 
       <button
-        className="absolute z-20 p-2 text-white bg-blue-500 rounded-md top-2 left-2 md:hidden"
+        className="absolute z-20 p-2 text-white bg-blue-500 rounded-md top-2 left-2 lg:hidden"
         onClick={toggleNavbar}
       >
         <LuPanelRightOpen className="w-5 h-5" />

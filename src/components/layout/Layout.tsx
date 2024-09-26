@@ -29,7 +29,7 @@ export const Layout: React.FC = () => {
       </div>
 
       {/* Основной контент */}
-      <main className="relative transition-all duration-[0.2s] w-full min-h-full grow flex flex-col ml-0 md:ml-[308px]">
+      <main className="relative transition-all duration-[0.2s] w-full min-h-full grow flex flex-col ml-0 lg:ml-[308px]">
         <Header />
         <Outlet />
       </main>
