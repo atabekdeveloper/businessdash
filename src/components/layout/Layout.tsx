@@ -23,7 +23,7 @@ export const Layout: React.FC = () => {
       {/* Боковой Navbar, который появляется при нажатии кнопки */}
       <div
         className={`fixed top-[30px] left-0 transform transition-transform duration-300 ease-in-out z-30 overflow-y-scroll h-screen rounded-xl not-scroll
-        ${isNavbar ? 'translate-x-5' : '-translate-x-full'} md:translate-x-5`}
+        ${isNavbar ? 'translate-x-5' : '-translate-x-full'} lg:translate-x-5`}
       >
         <Navbar />
       </div>

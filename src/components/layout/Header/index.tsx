@@ -34,7 +34,7 @@ export const Header: React.FC = () => {
         <span className="font-bold">{pathname === '/profile' && 'Профиль'}</span>
       </div>
 
-      <div className="flex space-x-4">
+      <div className="flex flex-wrap gap-4">
         <div className="flex items-center px-4 py-2 space-x-2 text-gray-400 bg-white rounded-lg shadow-md">
           {/* Иконка календаря */}
           <TbCalendarEvent size={20} className="text-black" />

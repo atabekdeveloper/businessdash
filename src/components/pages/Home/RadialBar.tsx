@@ -55,7 +55,7 @@ export const RadialBar: React.FC = () => {
   return (
     <div className="p-4 bg-white rounded-xl md:w-[520px] w-full">
       <h2 className="mb-2 text-xl font-semibold">Каналы эффективности продаж</h2>
-      <div className="flex items-center gap-4">
+      <div className="flex flex-wrap items-center justify-center gap-4">
         <ReactApexChart options={options as any} width={300} series={series} type="radialBar" />
         <div className="flex flex-col gap-2">
           <>
