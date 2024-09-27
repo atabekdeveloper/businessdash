@@ -14,7 +14,7 @@ export const Layout: React.FC = () => {
       {/* Верхний блок с фоновым изображением */}
       <div
         className="fixed top-0 left-0 w-full h-[50vh] bg-primary bg-cover bg-no-repeat"
-        style={{ backgroundImage: 'url(./src/assets/bg.png)' }}
+        style={{ backgroundImage: 'url(./public/bg.png)' }}
       ></div>
 
       {/* Нижний блок с белым фоном */}
