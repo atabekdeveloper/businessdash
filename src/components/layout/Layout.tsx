@@ -6,6 +6,8 @@ import { useToggleStore } from 'src/store';
 import { Navbar } from './Navbar';
 import { Header } from './Header';
 
+import bg from 'src/assets/bg.png';
+
 export const Layout: React.FC = () => {
   const isNavbar = useToggleStore((state) => state.isNavbar);
 
@@ -14,7 +16,7 @@ export const Layout: React.FC = () => {
       {/* Верхний блок с фоновым изображением */}
       <div
         className="fixed top-0 left-0 w-full h-[50vh] bg-primary bg-cover bg-no-repeat"
-        style={{ backgroundImage: 'url(./public/bg.png)' }}
+        style={{ backgroundImage: `url(${bg})` }}
       ></div>
 
       {/* Нижний блок с белым фоном */}
